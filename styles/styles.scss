@@ -136,6 +136,13 @@ footer {
   }
 }
 
+.social-media-icons:hover {
+  scale: 110%;
+  cursor: pointer;
+  background: $active-color;
+  border-radius: 50px;
+}
+
 @media screen and (min-width: 900px) {
   main {
     grid-template-columns: 5rem 1fr 1fr 5rem;
